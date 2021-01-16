@@ -1,0 +1,103 @@
+.App-container {
+  min-width: 350;
+  /* border: solid 1px red; */
+  text-align: center;
+  align-items: center;
+}
+
+.App-title {
+  color: white;
+}
+
+.header_container {
+  /* border: solid 2px yellow; */
+  margin: 0px auto;
+  background-color: black;
+}
+
+/* *** error message area */
+
+.status {
+  color: red;
+  visibility: hidden;
+  /* visibility: visible; */
+  margin-bottom: .2rem;
+}
+
+/* **** search form */
+
+.form-wrapper {
+  color: black;
+  padding: .5rem;
+  background-color: lightgrey;
+}
+
+.search-input {
+  margin-bottom: .4rem;
+}
+
+/* *** search filters x 2 */
+
+.filter_wrapper {
+  align-items: center;
+  display: flex;
+  background-color: ghostwhite;
+  justify-content: space-evenly;
+  padding: .2rem;
+}
+
+/* display result list */
+
+.display-list {
+  /* border: solid 2px yellow; */
+  margin: 0px auto;
+}
+
+.display-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  border-bottom: solid 1px #252525;
+}
+
+/* display image */
+
+.display-image {
+  flex: 1;
+  padding: 0;
+  /* flex-basis: 50%; */
+  /* border: solid 2px greenyellow; */
+  /* margin: auto; */
+}
+
+.display-image img {
+  width: 200px;
+  /*set the width or max-width*/
+  height: auto;
+  /*this makes sure to maintain the aspect ratio*/
+}
+
+/* *** display info section  */
+
+.display-info {
+  /* min-width: 450px; */
+  font-size: 1rem;
+  flex: 2;
+  /* flex-basis: 50%; */
+  /* border: solid 2px rebeccapurple; */
+  padding: 1rem;
+}
+
+.show-author {
+  padding: 0;
+}
+
+.show-cost {
+  padding: 0;
+}
+
+.show-description {
+  margin: 1rem 8%;
+  padding: 0;
+}

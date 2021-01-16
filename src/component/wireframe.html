@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./GoogleBookApp.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="test.js"></script>
+</head>
+
+
+<body>
+  <div class="App-container">
+  
+    <header class="header_container">
+      <h1 class="App-title">Google Book Search</h1>
+      <div class="status">
+      </div>
+
+
+      <form class="form-wrapper" id="id-search">
+        <label htmlFor="title">Search:</label>
+        <input type="text" class="search-input" placeholder='Name Of Book'></input>
+        <button type="submit" class="search-input">Search</button>
+
+        <div class="filter_wrapper">
+
+          <div class="sel-wrapper">
+            <label for="search-cost">Cost: </label>
+            <select name="search-cost" id="search-cost">
+              <option value="ebooks" id="cost-all" selected>All</option>
+              <option value="free-ebooks" id="cost-free">Free</option>
+              <option value="paid-ebooks" id="cost-paid">Paid</option>
+            </select>
+          </div>
+
+          <div class="sel-wrapper">
+            <label for="search-type">Cost: </label>
+            
+            <select name="search-type" id="search-type">
+              <option value="ebooks" id="cost-all" selected>All</option>
+              <option value="free-ebooks" id="cost-free">Free</option>
+              <option value="paid-ebooks" id="cost-paid">Paid</option>
+            </select>
+          </div>
+
+        </div>
+      </form>
+
+    </header>
+
+    <div class="main-display-list">
+      <div class="display-item-wrapper">
+        <div class="display-image">
+          <div class="photo">
+            <img src="../images/dog-pic.jpg" class="results-img">
+          </div>
+        </div>
+        <div class="display-info">
+
+          <h3 class="show-author">Mr. T </h3>
+
+          <h3 class="show-cost">Cost: $20.00 </h3>
+
+          <h3 class="show-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea porro saepe
+            incidunt,
+            corporis doloremque similique dicta, fuga provident omnis enim, amet quasi esse. Quisquam modi repudiandae
+            alias optio reiciendis recusandae.</h3>
+        </div>
+      </div>
+
+      <div class="display-item-wrapper">
+        <div class="display-image">
+          <div class="photo">
+            <img src="../images/dog-pic.jpg" class="results-img">
+          </div>
+        </div>
+        <div class="display-info">
+
+          <h3 class="show-author">Mr. T </h3>
+
+          <h3 class="show-cost">Cost: $20.00 </h3>
+
+          <h3 class="show-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea porro saepe
+            incidunt,
+            corporis doloremque similique dicta, fuga provident omnis enim, amet quasi esse. Quisquam modi repudiandae
+            alias optio reiciendis recusandae.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
