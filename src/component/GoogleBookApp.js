@@ -16,8 +16,6 @@ class GoogleBookApp extends Component {
 
   // call this when book change.
   updateBooks = (books) => {
-    // ??? just do not print out hre book when it comeback.
-    // debugger
     this.setState({
       results: books
     })
