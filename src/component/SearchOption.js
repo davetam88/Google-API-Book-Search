@@ -74,7 +74,3 @@ class SearchOption extends Component {
 }
 
 export default SearchOption;
-
-            // <option value="ebooks" id="cost-all" selected>All</option>
-            // <option value="free-ebooks" id="cost-free">Free</option>
-            // <option value="paid-ebooks" id="cost-paid">Paid</option>
